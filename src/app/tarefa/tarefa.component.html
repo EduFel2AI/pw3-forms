@@ -1,0 +1,48 @@
+<div class="container">
+  <form class="example-form" >
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Resumo</mat-label>
+      <input matInput placeholder="Ex. DNS não funciona" value="">
+    </mat-form-field>
+
+    <br />
+
+    <label>Tipo de Problema:</label>
+    <input type="radio" id="tarefa" name="problema" value="TAREFA" checked>
+      <label for="tarefa">Tarefa</label>
+      <input type="radio" id="bug" name="problema" value="BUG">
+      <label for="bug">Bug</label><br>
+
+    <br />
+
+    <label class="prioridade">Prioridade:</label>
+    <select>
+      <option value="-1">Selecione</option>
+      <option value="0">Crítica</option>
+      <option value="1">Alta</option>
+      <option value="2">Média</option>
+      <option value="3">Baixa</option>
+    </select>
+
+    <br />
+
+    <div class="prazo">
+      <label>Prazo final:</label>
+      <input class="inputPrazo" type="text">
+    </div>
+
+
+    <br />
+
+
+    <label>Descrição:</label>
+    <textarea rows="4" cols="50"></textarea>
+
+    <br />
+
+    <button>Enviar</button>
+
+  </form>
+</div>
+
